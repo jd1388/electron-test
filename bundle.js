@@ -998,9 +998,13 @@ var App = function (_Component) {
         key: 'render',
         value: function render() {
             return _react2.default.createElement(
-                'p',
-                null,
-                'Hi electron!'
+                'div',
+                { 'class': 'app' },
+                _react2.default.createElement(
+                    'p',
+                    null,
+                    'Hi electron! How stuf!'
+                )
             );
         }
     }]);
