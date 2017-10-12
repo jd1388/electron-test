@@ -1,3 +1,11 @@
+@import 'colors';
+
 .app {
-    font-family: serif;
+    font-family: sans-serif;
+    background-color: $primary-800;
+    display: flex;
+}
+
+.app-main-content {
+    flex-grow: 1;
 }
