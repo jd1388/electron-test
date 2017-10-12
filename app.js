@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
+import './sass/app.scss';
+
 export default class App extends Component {
     render() {
         return (
-            <div class='app'>
-                <p>Hi electron! How stuf!</p>
+            <div className='app'>
+                <h3>Hi electron! How is all of the things!</h3>
             </div>
         );
     }

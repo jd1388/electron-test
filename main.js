@@ -13,5 +13,5 @@ app.on('ready', () => {
         width: 400
     });
 
-    mainWindow.loadURL(`file://${__dirname}/index.html`);
+    mainWindow.loadURL(`http://localhost:8080/index.html`);
 })
